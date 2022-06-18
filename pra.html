@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: skyblue;
+            height: 40px;
+            width: 100px;
+            border: 2px solid blue;
+        }
+        .pra{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .dish{
+            height: 100px;
+            width: 150px;
+            border: 3px solid black;
+            background-color: aqua;
+        }
+        .dish:hover{
+            background-color: blue;
+            
+        }
+        .vin{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+        .bb{
+    width: 220px;
+    height: 170px;
+    background-color: lime;
+    margin-right: 7vw;
+    animation: animation1 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+}
+@keyframes animation1{ 
+    0%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
+.first{
+    height: 150px;
+    width: 200px;
+    border: 2px solid red;
+    
+    display: none;
+
+
+}
+@media (min-width:500px) and (max-width:700px){
+        .first{
+            display: block;
+            background-color: blueviolet;
+        }
+    }
+    body{
+        background-color: darkkhaki;
+    }
+
+    
+
+
+    </style>
+</head>
+<body>
+    <h2>Q-10 Which properties you will use to merge cell verticaly in a grid ? </h2>
+    <p>The grid-column property specifies a grid item's size and location in a grid layout, and is a shorthand property for the following properties:
+
+        grid-column-start
+        grid-column-end</p>
+        <h2>Q-11 which properties you will use to merge cell horizontally in a grid ? </h2>
+        <p>To merge cells in Excel, select the cells you want to merge, click the Merge list arrow and select a merge option.
+            Select the cell(s) you want to align.
+            To vertically align cells, click the vertical alignment button you want.
+            To horizontally align cells, click the horizontal alignment button you want.
+            </p>
+            <h2>Q-12 Explain the css box model ?</h2>
+            <p>Explanation of the different parts:
+
+                Content - The content of the box, where text and images appear
+                Padding - Clears an area around the content. The padding is transparent
+                Border - A border that goes around the padding and content
+                Margin - Clears an area outside the border. The margin is transparent
+                The box model allows us to add a border around elements, and to define space between elements. 
+                
+                </p>
+                <h2>Q-13 What is the difference between display none and visibility hidden ?</h2>
+                <p>display: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them. Take a look at our last example on this page if you want to know how this can be achieved.</p>
+                <p>isibility:hidden; also hides an element.
+
+                    However, the element will still take up the same space as before. The element will be hidden, but still affect the layout:</p>
+    
+        <h2>Day4</h2>
+<H2>Q-1</H2>
+<button>Entroll me</button>
+<h2>Q-2</h2>
+<div class="pra"><b>vinayak </b></div>
+<h2>Q-3</h2>
+<div class="dish"></div>
+<h2>Q-3</h2>
+<div class="vin"></div>
+<h2>Q-4</h2>
+<div class="bb"></div>
+<h2>Q-5</h2>
+<div class="first"></div>
+
+        
+    
+</body>
+</html>
